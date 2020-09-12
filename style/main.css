@@ -1,0 +1,186 @@
+/* metodo para centrar elemento en el navbar  */
+.navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+}
+
+/* navbar 1 */
+.input-search {
+  border: 0px !important;
+  border-radius: 0px !important;
+  box-shadow: none !important;
+}
+
+.form-style {
+  border-bottom: 2px black solid;
+}
+.form-style input{
+    background-color: transparent;
+}
+
+/* navbar numero 2 */
+.navbar-negro {
+  height: 20px;
+}
+
+.navbar-negro ul li a {
+  color: white !important;
+}
+.navbar-negro ul li a:hover {
+  color: rgb(229, 227, 226) !important;
+}
+.navbar-negro ul li:hover {
+  border-bottom: 2px solid rgb(255, 79, 59);
+}
+
+.navbar-negro ul li {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+ /* categorias */
+ .main-img div img{
+    width: 100%;
+}
+.main-img span{
+    position: relative;
+    bottom: 50px;
+}
+.main-img a{
+    text-decoration: none;
+    color: #000;
+}
+.main-img .btn{
+    background-color: white;
+    border: none;
+    border-radius: 0;
+    color: #000;
+}
+.main-img div{
+    width: 100px;
+    padding: 0;
+    margin-top: 20px;
+}
+.second-img div{
+    width: 200px;
+    padding: 0;
+    margin-top: 20px;
+}
+.second-img img{
+    max-width: 100%;
+}
+.second-img span{
+    position: relative;
+    bottom: 50px;
+}
+.second-img a{
+    text-decoration: none;
+    color: #000;
+}
+.second-img .btn{
+    background-color: white;
+    border: none;
+    border-radius: 0;
+    color: #000;
+}
+
+
+    /* productos top  */
+    .top div img{
+        width: 100%;
+    }
+    .top span{
+        position: relative;
+        bottom: 50px;
+    }
+    .top a{
+        text-decoration: none;
+        color: #000;
+    }
+    .top .btn{
+        background-color: white;
+        border: none;
+        border-radius: 0;
+        color: #000;
+    }
+    .top div{
+        width: 0px;
+        padding: 0;
+        margin-top: 20px;
+    }
+    .top p{
+        position: relative;
+        bottom: 40px;
+    }
+
+
+@media (max-width: 1200px){
+    .second-img img{
+   padding: 0px 20px;
+}   
+.main-img div img{
+    padding: 0px 20px;
+}
+.second-img span{
+    position: relative;
+    bottom: 80px;
+}
+
+.main-img span{
+    position: relative;
+    bottom: 80px;
+}
+}
+
+
+
+/* estilo del main desde aca  */
+.bg-main{
+    background-image: url('/img/banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    height: 800px;
+}
+
+
+/* principales modelos cards  */
+
+.card{
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+.card img{
+    height: 400px;
+    min-width: 200px;
+}
+
+
+/* footer desde aca */
+.list-group a{
+    text-decoration: none;
+    color: white;
+}
+.list-group a:hover{
+    text-decoration: none;
+    color: black;
+}
+.list-group li{
+    list-style: none;
+}
+
+.footer-main .col{
+ width: 300px;
+ margin-top: 5px;
+}
+
+/* medias queries responsive aqui */
+
+@media (max-width: 920px){
+.navbar-dark{
+    display: none !important;
+}}
+

@@ -192,3 +192,17 @@ form{
     display: none !important;
 }} */
 
+
+@media (max-width: 920px){
+    .navbar-dark{
+        display: none !important;
+    }
+
+    .n-principal form{
+        display: none !important;
+    }
+    .n-principal .show{
+        /* display: block !important; */
+        display: block !important;
+    }
+}

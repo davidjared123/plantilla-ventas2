@@ -17,7 +17,15 @@
 }
 .form-style input{
     background-color: transparent;
+    width: 86% !important;
 }
+form{
+    width: 250px;
+}
+.navbar button{
+    border:transparent;
+}
+
 
 /* navbar numero 2 */
 .navbar-negro {
@@ -177,10 +185,10 @@
  margin-top: 5px;
 }
 
-/* medias queries responsive aqui */
-
+/* medias queries responsive aqui  !!!!!!RESPONSIVE 2*/
+/* 
 @media (max-width: 920px){
 .navbar-dark{
     display: none !important;
-}}
+}} */
 

@@ -201,8 +201,12 @@ form{
     .n-principal form{
         display: none !important;
     }
-    .n-principal .show{
-        /* display: block !important; */
+    .n-principal .show ul{
+        display: block !important;
+        /* display: flex !important;
+        flex-wrap: wrap !important; */
+    }
+    .second-nav{
         display: block !important;
     }
 }

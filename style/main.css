@@ -146,7 +146,7 @@ form{
 
 /* estilo del main desde aca  */
 .bg-main{
-    background-image: url('/img/banner.jpg');
+    background-image: url('/img/banner.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -192,6 +192,8 @@ form{
     display: none !important;
 }} */
 
+
+ /* medidas de  navbars */
 
 @media (max-width: 920px){
     .navbar-dark{

@@ -1,3 +1,21 @@
+            /* // INDICE // */
+
+        /* / SECCIONES /
+        1- Navbar 1
+            1.1- Navbar1
+            1.2- Navbar2
+        2- main banner
+        3- Categorias
+        4- Top Productos
+        5- Galeria
+        6- Media queries
+            6.1- Navbar 1
+            6.2- Navbar 2 
+        */
+
+
+
+
 /* metodo para centrar elemento en el navbar  */
 .navbar-center {
   position: absolute;
@@ -146,7 +164,7 @@ form{
 
 /* estilo del main desde aca  */
 .bg-main{
-    background-image: url('/img/banner.png');
+    background-image: url('/img/banner.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;

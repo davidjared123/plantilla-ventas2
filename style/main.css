@@ -69,7 +69,7 @@ form{
 
 /* estilo del main desde aca  */
 .bg-main{
-    background-image: url('/img/banner-main.jpg');
+    background-image: url('/img/main-banner.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
